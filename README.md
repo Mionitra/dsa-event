@@ -1,16 +1,49 @@
-# React + Vite
+#  Hackathon d'Algorithme – 8 Mai
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Organisé par **DSA** en collaboration avec **AlgoMada**
 
-Currently, two official plugins are available:
+Bienvenue sur la plateforme officielle du **Hackathon d'Algorithme du 8 Mai**, organisé par **DSA (Data Structure & Algorithms)** en collaboration avec **AlgoMada**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ce projet est développé avec **React.js** et **TailwindCSS** afin d’offrir une expérience moderne, rapide et responsive.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  À propos de l'événement
 
-## Expanding the ESLint configuration
+Le **Hackathon d’Algorithme du 8 Mai** est un événement dédié aux passionnés d’algorithmique, de structures de données et de résolution de problèmes.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ Objectifs :
+
+* Stimuler la logique algorithmique
+* Encourager le travail en équipe
+* Promouvoir l’excellence en programmation compétitive
+* Créer une communauté dynamique autour de DSA
+
+---
+
+##  À propos de la plateforme DSA
+
+La plateforme DSA est un environnement en ligne conçu pour :
+
+*  Résoudre des problèmes d’algorithmique
+*  Mettre en pratique les structures de données
+*  Participer à des compétitions et hackathons
+*  Suivre son classement en temps réel
+
+Fonctionnalités principales :
+
+* Authentification des participants
+* Tableau de classement (Leaderboard)
+* Soumission automatique des solutions
+* Évaluation instantanée
+
+---
+
+##  Technologies utilisées
+
+*  React.js
+*  TailwindCSS
+---
+
+# 🔥 Let’s Code. Let’s Compete. Let’s Win.
+
