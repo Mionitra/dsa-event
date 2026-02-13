@@ -2,8 +2,6 @@
 
 ### Organisé par **DSA** en collaboration avec **AlgoMada**
 
-Bienvenue sur la plateforme officielle du **Hackathon d'Algorithme du 8 Mai**, organisé par **DSA (Data Structure & Algorithms)** en collaboration avec **AlgoMada**.
-
 Ce projet est développé avec **React.js** et **TailwindCSS** afin d’offrir une expérience moderne, rapide et responsive.
 
 ---
