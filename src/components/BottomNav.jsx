@@ -94,7 +94,7 @@ function BottomNav({ activeTab, setActiveTab }) {
                     : 'group-hover:scale-105'
                 }`}
                 style={{
-                  color: activeTab === item.id ? COLORS.yellow : COLORS.blue
+                  color: activeTab === item.id ? COLORS.yellow : "#ffffff"
                 }}
               >
                 {item.icon}
@@ -106,7 +106,7 @@ function BottomNav({ activeTab, setActiveTab }) {
                     : 'opacity-80'
                 }`}
                 style={{
-                  color: activeTab === item.id ? COLORS.yellow : COLORS.blue
+                  color: activeTab === item.id ? COLORS.yellow : "#ffffff"
                 }}
               >
                 {item.label}
