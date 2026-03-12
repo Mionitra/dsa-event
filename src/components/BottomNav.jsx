@@ -2,6 +2,7 @@ import { useState } from 'react';
 import FAQPage from '../pages/FAQPage';
 import ReglementsPage from '../pages/ReglementsPage';
 import DSAPage from '../pages/DSAPage';
+import StaffRecruitmentPage from '../pages/StaffRecruitmentPage';
 
 const COLORS = {
   yellow: '#FCD34D',
@@ -65,6 +66,18 @@ function BottomNav({ activeTab, setActiveTab }) {
           <path d="M16 13H8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
           <path d="M16 17H8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
           <path d="M10 9H9H8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      )
+    },
+    {
+      id: 'recrutement',
+      label: 'Recrutement',
+      icon: (
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+          <circle cx="9.5" cy="7.5" r="3.5"></circle>
+          <path d="M3.5 20c0-3.8 3-6.5 6.5-6.5"></path>
+          <circle cx="17" cy="16.5" r="4.5"></circle>
+          <line x1="20.5" y1="20" x2="22.5" y2="22"></line>
         </svg>
       )
     },
@@ -132,6 +145,7 @@ export default function App() {
         {activeTab === 'reglements' && <ReglementsPage />}
         {activeTab === 'faq' && <FAQPage />}
         {activeTab === 'dsa' && <DSAPage />}
+        {activeTab === 'recrutement' && <StaffRecruitmentPage />}
       </div>
 
       {/* Bottom Navigation */}
